@@ -46,16 +46,19 @@ footer {
     margin-left: auto;
 }
 
-#hebergement .carddesk {
+#hebergement .carddesk,
+#populaire .carddesk {
     justify-content: space-between
 }
 
+@media only screen and (min-width: 992px) {
+    #hebergement {
+        width: 66.66%;
+    }
 
+    #populaire {
+        width: 33.33%;
+    }
 
-#hebergement {
-    width: 66.66%;
 }
 
-#populaire {
-    width: 33.33%;
-}
