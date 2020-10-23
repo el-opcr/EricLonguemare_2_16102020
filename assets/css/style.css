@@ -13,4 +13,11 @@
 
 body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+
+#topnav ul {
+    display: flex;
+    list-style: none;
 }
