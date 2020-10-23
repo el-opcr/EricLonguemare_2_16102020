@@ -25,6 +25,7 @@ ul {
 #topnav ul,
 footer {
     display: flex;
+    flex-wrap: wrap
 }
 
 #hebergement,
