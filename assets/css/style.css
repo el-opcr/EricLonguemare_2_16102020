@@ -22,14 +22,40 @@ ul {
     list-style-type: none;
 }
 
-#topnav ul,
-footer {
-    display: flex;
-    flex-wrap: wrap
-}
-
 #hebergement,
 #populaire,
 footer {
-   background-color: #F2F2F2;
+    background-color: #F2F2F2;
+}
+
+#topnav,
+#topnav div,
+#mainrow,
+#hebergement .carddesk,
+#populaire .carddesk,
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#topnav {
+    margin-top: 50px;
+}
+
+.push {
+    margin-left: auto;
+}
+
+#hebergement .carddesk {
+    justify-content: space-between
+}
+
+
+
+#hebergement {
+    width: 66.66%;
+}
+
+#populaire {
+    width: 33.33%;
 }
