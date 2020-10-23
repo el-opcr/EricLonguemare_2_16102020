@@ -25,3 +25,9 @@ ul {
 #topnav ul {
     display: flex;
 }
+
+#hebergement,
+#populaire,
+footer {
+   background-color: #F2F2F2;
+}
