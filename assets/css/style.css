@@ -22,10 +22,22 @@ ul {
   list-style-type: none;
 }
 
+section {
+  margin: 2% 0 0 0;
+  padding: 2% 0 0 0;
+}
+
+section > header {
+  height: 3em;
+  padding: 2% 0 0 2%;
+  font-size: 1.5em;
+}
+
 .column-margin {
   margin-left: 2%;
   margin-right: 2%;
 }
+
 #populaire,
 footer {
   background-color: #f2f2f2;
