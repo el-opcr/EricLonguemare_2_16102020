@@ -59,6 +59,8 @@ footer {
 .card {
   background-color: white;
   padding: 0.75%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 5%;
 }
 
 img {
