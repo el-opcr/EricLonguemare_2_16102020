@@ -88,6 +88,10 @@ img {
     width: 90%;
   }
 
+  #populaire img {
+    width: 33.33%;
+  }
+
   #activite .carddesk {
     justify-content: space-between;
     align-items: end;
