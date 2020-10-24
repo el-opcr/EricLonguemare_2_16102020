@@ -67,6 +67,11 @@ img {
   height: auto;
 }
 
+#mainfooter {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
 @media only screen and (min-width: 992px) {
   .column-margin {
     margin-left: 50px;
@@ -110,5 +115,10 @@ img {
 
   #activite img.long {
     height: 300px;
+  }
+
+  #mainfooter {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
