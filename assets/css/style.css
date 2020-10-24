@@ -63,6 +63,11 @@ footer {
   border-radius: 5%;
 }
 
+.card header,
+.card p {
+  padding-left: 5%;
+}
+
 img {
   object-fit: cover;
   width: 100%;
