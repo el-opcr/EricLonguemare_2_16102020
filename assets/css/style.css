@@ -75,7 +75,8 @@ footer {
 
 .card header,
 .card p {
-  padding-left: 10%;
+  padding-left: 5%;
+  padding-top: 5%;
   font-size: 0.9em;
 }
 
