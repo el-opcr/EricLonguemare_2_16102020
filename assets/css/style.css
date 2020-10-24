@@ -22,6 +22,11 @@ ul {
   list-style-type: none;
 }
 
+.column-margin {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 #hebergement,
 #populaire,
 footer {
@@ -57,7 +62,7 @@ footer {
 
 img {
   object-fit: cover;
-  width: 80%;
+  width: 100%;
   max-height: 120px;
   height: auto;
 }
