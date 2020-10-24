@@ -83,6 +83,11 @@ img {
     width: 200px;
   }
 
+  #populaire .card {
+    display: flex;
+    width: 90%;
+  }
+
   #activite .carddesk {
     justify-content: space-between;
     align-items: end;
