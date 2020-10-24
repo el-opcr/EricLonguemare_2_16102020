@@ -31,8 +31,7 @@ footer {
 #topnav,
 #topnav div,
 #mainrow,
-#hebergement .carddesk,
-#populaire .carddesk,
+.carddesk,
 #mainfooter {
   display: flex;
   flex-wrap: wrap;
@@ -83,5 +82,20 @@ img {
   img {
     height: 115px;
     width: 200px;
+  }
+
+  #activite .carddesk {
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  #activite img {
+    width: 268px;
+    height: 138px;
+    max-height: 300px;
+  }
+
+  #activite img.long {
+    height: 300px;
   }
 }
