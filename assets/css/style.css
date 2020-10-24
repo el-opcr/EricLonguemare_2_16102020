@@ -33,7 +33,7 @@ footer {
 #mainrow,
 #hebergement .carddesk,
 #populaire .carddesk,
-footer {
+#mainfooter {
   display: flex;
   flex-wrap: wrap;
 }
@@ -47,13 +47,13 @@ footer {
 }
 
 .carddesk {
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 30px 30px;
 }
 
 .card {
   background-color: white;
-  width: 240px;
-  height: 200px;
   text-align: center;
 }
 
