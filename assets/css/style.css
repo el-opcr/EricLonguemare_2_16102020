@@ -46,7 +46,7 @@ footer {
 #topnav,
 #topnav div,
 #mainrow,
-.carddesk,
+.card-desk,
 #mainfooter {
   display: flex;
   flex-wrap: wrap;
@@ -60,7 +60,7 @@ footer {
   margin-left: auto;
 }
 
-.carddesk {
+.card-desk {
   justify-content: center;
   align-items: center;
   gap: 30px 30px;
@@ -144,7 +144,7 @@ img {
     height: 140px;
   }
 
-  #activite .carddesk {
+  #activite .card-desk {
     justify-content: space-between;
     align-items: end;
   }
