@@ -163,7 +163,7 @@ input[type=button].recherche {
   margin-left: -10px;
   margin-right: 10px;
   color: #0065fc;
-  background-color: lightblue;
+  background-color: #deebff;
 }
 
 #filtres input[type="checkbox"]:checked + span {
