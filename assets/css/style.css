@@ -18,6 +18,10 @@ body {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   padding: 0;
   list-style-type: none;
@@ -112,6 +116,29 @@ img {
 #mainfooter {
   padding-right: 5%;
   padding-left: 5%;
+}
+
+input[type=button] {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+input[type=button].recherche {
+  background-color: #0065fc;
+  border: none;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 15px;
+  padding: 15px;
+}
+
+input[type=button].filtres {
+  background-color: white;
+  color: black;
+  border: gainsboro solid;
+  border-radius: 50px;
+  border-width: 1px;
+  padding: 12px;
 }
 
 @media only screen and (min-width: 992px) {
