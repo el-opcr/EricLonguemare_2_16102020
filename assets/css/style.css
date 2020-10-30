@@ -1,0 +1,205 @@
+/* raleway-regular - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/raleway-v18-latin-regular.eot"); /* IE9 Compat Modes */
+  src:
+    url("../fonts/raleway-v18-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/raleway-v18-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("../fonts/raleway-v18-latin-regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/raleway-v18-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/raleway-v18-latin-regular.svg#Raleway") format("svg"); /* Legacy iOS */
+}
+
+body {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  max-width: 1440px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+section {
+  margin: 2% 0 0 0;
+  padding: 2% 0 0 0;
+}
+
+section > header {
+  height: 3em;
+  padding: 2% 0 0 2%;
+  font-size: 1.33em;
+}
+
+.column-margin {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#populaire,
+footer {
+  background-color: #f2f2f2;
+}
+
+#topnav,
+#topnav div,
+#mainrow,
+.card-desk,
+#mainfooter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#topnav {
+  margin-top: 50px;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.card-desk {
+  justify-content: center;
+  align-items: center;
+  gap: 30px 30px;
+}
+
+.card {
+  background-color: white;
+  padding: 0.75%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 5%;
+}
+
+.card header,
+.card p {
+  padding-left: 5%;
+  padding-top: 5%;
+  font-size: 0.9em;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 120px;
+  height: auto;
+  border-top-left-radius: 5%;
+}
+
+#populaire {
+  order: -1;
+}
+
+#populaire .card {
+  display: flex;
+  width: 100%;
+}
+
+#populaire img {
+  width: 33.33%;
+  border-bottom-left-radius: 5%;
+  max-height: 140px;
+}
+
+#hebergement img,
+#activite img {
+  border-top-right-radius: 5%;
+}
+
+#mainfooter {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+input[type=button] {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+input[type=button].recherche {
+  background-color: #0065fc;
+  border: none;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 15px;
+  padding: 15px;
+}
+
+#filtres input[type=checkbox] {
+  display: none;
+}
+
+#filtres span {
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  border: gainsboro solid;
+  border-radius: 50px;
+  border-width: 1px;
+  padding: 12px;
+}
+
+#filtres input[type="checkbox"]:checked + span {
+  background-color: #0065fc;
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  img {
+    height: 115px;
+    width: 220px;
+  }
+
+  #hebergement {
+    order: 0;
+    background-color: #f2f2f2;
+    width: 65.16%;
+    margin-right: 1.5%;
+    border-radius: 5%;
+  }
+
+  #populaire {
+    order: 1;
+    width: 31.83%;
+    margin-left: 1.5%;
+    border-radius: 5%;
+  }
+
+  #populaire .card {
+    width: 90%;
+    height: 150px;
+  }
+
+  #populaire img {
+    height: 140px;
+  }
+
+  #activite .card-desk {
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  #activite img {
+    width: 268px;
+    height: 138px;
+    max-height: 300px;
+  }
+
+  #activite img.long {
+    height: 300px;
+  }
+
+  #mainfooter {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}

@@ -1,4 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
 <head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reservia</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
+<div class="column-margin">
+  <header>
+    <nav id="topnav">
+      <div>
+        <a href="#">Reservia</a>
+      </div>
+      <div class="push">
+        <a href="#">Hébergements</a>
+        <a href="#">Activités</a>
+        <a href="#">S'inscrire</a>
+      </div>
+    </nav>
+    <p style="font-size: 1.33em; font-weight: 900;">
+      Trouvez votre hébergement pour des vacances de rêve
+    </p>
+    <p>En plein centre ville ou en pleine nature</p>
+  </header>
+  <!-- bloc action/interactivité -->
+  <!-- 1 seul bloc -->
+  <!-- Formulaire localisation et recherche -->
+  <form>
+    <input type="button" value="Loc">
+    <label>
+      <input type="text" name="recherche" placeholder="Marseille, France">
+    </label>
+    <input type="button" value="Rechercher" class="recherche">
+  </form>
+  <!-- Filtres -->
+  <form id="filtres">
+    Filtres
+    <label>
+      <input type="checkbox" name="filtres" value="Économique">
+      <span>Économique</span>
+    </label>
+    <label>
+      <input type="checkbox" name="filtres" value="Familial">
+      <span>Familial</span>
+    </label>
+    <label>
+      <input type="checkbox" name="filtres" value="Romantique">
+      <span>Romantique</span>
+    </label>
+    <label>
+      <input type="checkbox" name="filtres" value="Animaux autorisés">
+      <span>Animaux autorisés</span>
+    </label>
+  </form>
+  <div>
+   I Plus de 500 logements sont disponibles dans cette ville
+  </div>
+  <main>
+    <!-- block-1 12 cols -->
+    <div id="mainrow">
+      <!-- block-1.1 hebergement 8 cols-->
+      <section id="hebergement">
+        <header>
+          <strong>
+            Hébergements à Marseille
+          </strong>
+        </header>
+        <div class="card-desk">
+          <div class="card">
+            <img
+                src="assets/pictures/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt=" "
+            />
+            <header>
+              <strong>
+                Auberge la Cannebière
+              </strong>
+            </header>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">Nuit à partir de 25€</p>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">*****</p>
+          </div>
+          <div class="card">
+            <img
+                src="assets/pictures/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt=" "
+            />
+            <header>
+              <strong>
+                Hôtel du port
+              </strong></header>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">Nuit à partir de 52€</p>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">*****</p>
+          </div>
+          <div class="card">
+            <img
+                src="assets/pictures/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt=" "
+            />
+            <header>
+              <strong>
+                Hôtel Les mouettes
+              </strong>
+            </header>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">Nuit à partir de 76€</p>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">*****</p>
+          </div>
+          <div class="card">
+            <img
+                src="assets/pictures/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt=" "
+            />
+            <header>
+              <strong>
+                Hôtel de la mer
+              </strong>
+            </header>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">Nuit à partir de 46€</p>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">*****</p>
+          </div>
+          <div class="card">
+            <img
+                src="assets/pictures/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt=" "
+            />
+            <header>
+              <strong>
+                Auberge Le Panier
+              </strong>
+            </header>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">Nuit à partir de 23€</p>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">*****</p>
+          </div>
+          <div class="card">
+            <img
+                src="assets/pictures/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt=" "
+            />
+            <header>
+              <strong>
+                Hôtel chez Amina
+              </strong>
+            </header>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">Nuit à partir de 96€</p>
+            <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">*****</p>
+          </div>
+        </div>
+        <footer style="height: 4em; padding: 5% 0 0 8%; font-size: 1.1em; font-weight: bold;">
+          <a href="#">Afficher plus</a>
+        </footer>
+      </section>
+      <!-- block-1.2 populaires 4 cols -->
+      <section id="populaire">
+        <header>
+          <strong> Les plus populaires </strong>
+        </header>
+        <div class="card-desk">
+          <div class="card">
+            <img
+                src="assets/pictures/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt=" "
+            />
+            <div>
+              <header>
+                <strong>
+                  Hôtel Le soleil du matin
+                </strong>
+              </header>
+              <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">Nuit à partir de 128€</p>
+              <p>*****</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+                src="assets/pictures/aw-creative-VGs8z60yT2c-unsplash.jpg" alt=" "
+            />
+            <div>
+              <header>
+                <strong>
+                  Au coeur de l'eau Chambres d'hôtes
+                </strong>
+              </header>
+              <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">Nuit à partir de 71€</p>
+              <p>*****</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+                src="assets/pictures/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt=" "
+            />
+            <div>
+              <header>
+                <strong>
+                  Hôtel Tout bleu et Blanc
+                </strong>
+              </header>
+              <p style="margin: 0.5em 0 0 0; padding: 0 0 0 5%;">Nuit à partir de 68€</p>
+              <p style="margin: 2.5em 0 0 0; padding: 0 0 0 5%;">*****</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- block-2 activites 12 cols -->
+    <section id="activite">
+      <header><strong>Activités à Marseille</strong></header>
+      <div class="card-desk">
+        <!-- block-2.1 1 col de 2 lignes-->
+        <div class="card">
+          <img src="assets/pictures/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt=" " class="long"/>
+          <header>
+            <strong>
+              Vieux-Port
+            </strong>
+          </header>
+        </div>
+        <!-- block-2.2 1 col avec 2 lignes-->
+        <div>
+          <!-- ligne 1 -->
+          <div class="card">
+            <img src="assets/pictures/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt=" "/>
+            <header>
+              <strong>
+                Fort de Pomègues
+              </strong>
+            </header>
+          </div>
+          <!-- ligne 2 -->
+          <div class="card">
+            <img src="assets/pictures/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt=" "/>
+            <header>
+              <strong>
+                Îles de Frioul
+              </strong>
+            </header>
+          </div>
+        </div>
+        <!-- block-2.3 1 col de 2 lignes-->
+        <div class="card">
+          <img src="assets/pictures/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt=" " class="long"/>
+          <header>
+            <strong>
+              Parc National des Calanques
+            </strong>
+          </header>
+        </div>
+        <!-- block-2.4 1 col avec 2 lignes-->
+        <div>
+          <!-- ligne 1 -->
+          <div class="card">
+            <img src="assets/pictures/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=" "/>
+            <header>
+              <strong>
+                Notre-Dame-de-la-Garde
+              </strong>
+            </header>
+          </div>
+          <!-- ligne 2 -->
+          <div class="card">
+            <img src="assets/pictures/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt=" "/>
+            <header>
+              <strong>
+                Parc Longchamp
+              </strong>
+            </header>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+<footer id="mainfooter">
+  <ul>
+    À propos
+    <li>Fonctionnement du site</li>
+    <li>Conditions générales de vente</li>
+    <li>Données et confidentialité</li>
+  </ul>
+  <ul>
+    Nos hébergements
+    <li>Charte qualité</li>
+    <li>Soumettre votre hôtel</li>
+  </ul>
+  <ul>
+    Assistance
+    <li>Centre d'aide</li>
+    <li>Nous contacter</li>
+  </ul>
+</footer>
 </body>
+</html>
