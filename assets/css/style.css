@@ -141,15 +141,29 @@ input[type=button].recherche {
   display: none;
 }
 
-#filtres span {
+#filtres span,
+#filtres i {
   display: inline-block;
-  padding: 12px;
   font-size: 1.1em;
   font-weight: bold;
+  border-radius: 50px;
+}
+
+#filtres span {
+  padding: 12px 12px 12px 12px;
   color: black;
   background-color: white;
-  border: 1px solid gainsboro;
-  border-radius: 50px;
+  border: gainsboro solid 1px;
+}
+
+#filtres i {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: -10px;
+  color: #0065fc;
+  background-color: #deebff;
 }
 
 #filtres input[type="checkbox"]:checked + span {
