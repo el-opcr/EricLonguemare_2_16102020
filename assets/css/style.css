@@ -270,17 +270,27 @@ input[type=button].recherche {
   }
 
   #activite img {
-    width: 268px;
-    height: 138px;
-    max-height: 300px;
+    width: calc((100vw - 210px) / 4);
+    min-height: calc((((100vw - 210px) / 4) / 2) - 1em);
   }
 
   #activite img.long {
-    height: 300px;
+    min-height: calc((100vw - 210px) / 4);
   }
 
   #mainfooter {
     padding-right: 2%;
     padding-left: 2%;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  #activite img {
+    width: calc((100vw - 710px) / 4);
+    min-height: calc(((((100vw - 710px) / 4) / 2) - 1em));
+  }
+
+  #activite img.long {
+    min-height: calc(((100vw - 710px) / 4));
   }
 }
