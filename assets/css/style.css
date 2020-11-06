@@ -38,6 +38,10 @@ section > header {
   font-size: 1.33em;
 }
 
+form {
+  margin-bottom: 1.5em;
+}
+
 .column-margin {
   margin-right: 2%;
   margin-left: 2%;
@@ -76,12 +80,24 @@ footer {
 }
 
 .push {
+  display: flex;
   margin-left: auto;
 }
 
+.push > a {
+  margin: 0 2em 0 2em;
+  font-weight: bold;
+  color: #0065fc;
+}
+
 p.accroche {
+  margin-bottom: 0;
   font-size: 1.33em;
   font-weight: bold;
+}
+
+p.accroche-secondaire {
+  margin-top: 0.5em;
 }
 
 .card-desk {
