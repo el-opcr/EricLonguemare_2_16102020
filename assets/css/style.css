@@ -146,24 +146,27 @@ input[type=button].recherche {
   display: inline-block;
   font-size: 1.1em;
   font-weight: bold;
-  border-radius: 50px;
+  line-height: 1.8em;
 }
 
 #filtres span {
-  padding: 12px 12px 12px 12px;
+  padding-right: 0.5em;
   color: black;
   background-color: white;
-  border: gainsboro solid 1px;
+  border: gainsboro solid 0.1em;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.08);
 }
 
 #filtres i {
-  float: left;
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  margin-left: -10px;
+  width: 2em;
+  padding: 0.25em;
+  margin-right: 0.75em;
   color: #0065fc;
+  text-align: center;
   background-color: #deebff;
+  border: #deebff solid 0.1em;
+  border-radius: 50px;
 }
 
 #filtres input[type="checkbox"]:checked + span {
