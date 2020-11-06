@@ -139,7 +139,7 @@ img {
 }
 
 #filtres span {
-  padding-right: 0.5em;
+  padding-right: 1em;
   margin: 0.75em;
   color: black;
   background-color: white;
@@ -152,6 +152,7 @@ img {
   width: 2em;
   padding: 0.25em;
   margin-right: 0.75em;
+  margin-left: -0.1em;
   color: #0065fc;
   text-align: center;
   background-color: #deebff;
@@ -165,10 +166,13 @@ img {
 }
 
 .information {
-  padding: 1em;
+  width: 1em;
+  height: 1em;
+  padding: 0.3em;
   margin-right: 1em;
   font-size: 0.8em;
   color: #0065fc;
+  text-align: center;
   border: gainsboro solid 0.1em;
   border-radius: 50px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.08);
