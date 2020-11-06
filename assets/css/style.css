@@ -164,8 +164,21 @@ p.bottom {
 }
 
 #mainfooter {
+  gap: 30px 30px;
+  justify-content: flex-start;
+  padding-top: 1em;
   padding-right: 5%;
+  padding-bottom: 10em;
   padding-left: 5%;
+  margin-top: 3em;
+}
+
+#mainfooter a {
+  color: black;
+}
+
+#mainfooter ul {
+  margin: 2em;
 }
 
 #filtres {
@@ -221,6 +234,10 @@ p.bottom {
   border: gainsboro solid 0.1em;
   border-radius: 50px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.form-container {
+  display: flex;
 }
 
 button[type=submit].localisation {
