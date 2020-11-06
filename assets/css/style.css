@@ -148,6 +148,16 @@ p.espace {
   border-bottom-left-radius: 5%;
 }
 
+.populaires-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+p.bottom {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 #hebergement img,
 #activite img {
   border-top-right-radius: 5%;
