@@ -125,6 +125,14 @@ p.espace {
   margin: 0.5em 0 0 0 !important;
 }
 
+.blue-star {
+  color: #0065fc;
+}
+
+.grey-star {
+  color: #f2f2f2;
+}
+
 #populaire {
   order: -1;
 }
