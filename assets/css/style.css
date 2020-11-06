@@ -223,6 +223,10 @@ p.bottom {
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.08);
 }
 
+.form-container {
+  display: flex;
+}
+
 button[type=submit].localisation {
   padding: 15px;
   font-size: 1.1em;
