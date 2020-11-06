@@ -43,6 +43,14 @@ section > header {
   margin-left: 2%;
 }
 
+img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-height: 120px;
+  border-top-left-radius: 5%;
+}
+
 #populaire,
 footer {
   background-color: #f2f2f2;
@@ -53,8 +61,8 @@ footer {
 }
 
 #topnav img {
-  margin-top: -50px;
   width: 100%;
+  margin-top: -50px;
   object-fit: contain;
 }
 
@@ -69,6 +77,11 @@ footer {
 
 .push {
   margin-left: auto;
+}
+
+p.accroche {
+  font-size: 1.33em;
+  font-weight: bold;
 }
 
 .card-desk {
@@ -94,14 +107,6 @@ footer {
 p.espace {
   padding: 0 0 0 5% !important;
   margin: 0.5em 0 0 0 !important;
-}
-
-img {
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-  max-height: 120px;
-  border-top-left-radius: 5%;
 }
 
 #populaire {
