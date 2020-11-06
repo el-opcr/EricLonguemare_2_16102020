@@ -244,6 +244,10 @@ input[type=button].recherche {
     border-radius: 5%;
   }
 
+  section > header {
+    height: 2em;
+  }
+
   #populaire {
     order: 1;
     width: 31.83%;
