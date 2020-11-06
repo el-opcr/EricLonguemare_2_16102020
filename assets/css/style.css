@@ -173,6 +173,16 @@ input[type=button].recherche {
   background-color: #0065fc;
 }
 
+.information {
+  padding: 1em;
+  margin-right: 1em;
+  font-size: 0.8em;
+  color: #0065fc;
+  border: gainsboro solid 0.1em;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.08);
+}
+
 @media only screen and (min-width: 992px) {
   img {
     width: 220px;
