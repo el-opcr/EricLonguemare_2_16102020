@@ -240,7 +240,7 @@ p.bottom {
   display: flex;
 }
 
-button[type=submit].localisation {
+button.localisation {
   padding: 15px;
   font-size: 1.1em;
   border: none;
@@ -255,7 +255,13 @@ input[type=text].rechercheText {
   border: gainsboro solid 0.1em;
 }
 
-input[type=button].recherche {
+button.recherche::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f002";
+}
+
+button.recherche {
   padding: 15px;
   font-size: 1.3em;
   color: white;
@@ -269,6 +275,10 @@ input[type=button].recherche {
   img {
     width: 220px;
     height: 115px;
+  }
+
+  button.recherche::before {
+    content: "Rechercher";
   }
 
   #hebergement {
