@@ -38,14 +38,36 @@ section > header {
   font-size: 1.33em;
 }
 
+form {
+  margin-bottom: 1.5em;
+}
+
 .column-margin {
   margin-right: 2%;
   margin-left: 2%;
 }
 
+img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-height: 120px;
+  border-top-left-radius: 5%;
+}
+
 #populaire,
 footer {
   background-color: #f2f2f2;
+}
+
+#topnav {
+  margin-top: 50px;
+}
+
+#topnav img {
+  width: 100%;
+  margin-top: -50px;
+  object-fit: contain;
 }
 
 #topnav,
@@ -57,12 +79,25 @@ footer {
   flex-wrap: wrap;
 }
 
-#topnav {
-  margin-top: 50px;
+.push {
+  display: flex;
+  margin-left: auto;
 }
 
-.push {
-  margin-left: auto;
+.push > a {
+  margin: 0 2em 0 2em;
+  font-weight: bold;
+  color: #0065fc;
+}
+
+p.accroche {
+  margin-bottom: 0;
+  font-size: 1.33em;
+  font-weight: bold;
+}
+
+p.accroche-secondaire {
+  margin-top: 0.5em;
 }
 
 .card-desk {
@@ -88,14 +123,6 @@ footer {
 p.espace {
   padding: 0 0 0 5% !important;
   margin: 0.5em 0 0 0 !important;
-}
-
-img {
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-  max-height: 120px;
-  border-top-left-radius: 5%;
 }
 
 #populaire {
@@ -139,7 +166,7 @@ img {
 }
 
 #filtres span {
-  padding-right: 0.5em;
+  padding-right: 1em;
   margin: 0.75em;
   color: black;
   background-color: white;
@@ -152,6 +179,7 @@ img {
   width: 2em;
   padding: 0.25em;
   margin-right: 0.75em;
+  margin-left: -0.1em;
   color: #0065fc;
   text-align: center;
   background-color: #deebff;
@@ -165,10 +193,13 @@ img {
 }
 
 .information {
-  padding: 1em;
+  width: 1em;
+  height: 1em;
+  padding: 0.3em;
   margin-right: 1em;
   font-size: 0.8em;
   color: #0065fc;
+  text-align: center;
   border: gainsboro solid 0.1em;
   border-radius: 50px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.08);
@@ -211,6 +242,10 @@ input[type=button].recherche {
     margin-right: 1.5%;
     background-color: #f2f2f2;
     border-radius: 5%;
+  }
+
+  section > header {
+    height: 2em;
   }
 
   #populaire {
