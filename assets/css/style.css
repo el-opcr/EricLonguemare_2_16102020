@@ -84,8 +84,7 @@ footer {
   margin-left: auto;
 }
 
-.push > a {
-  margin: 0 2em 0 2em;
+.push > div > a {
   font-weight: bold;
   color: #0065fc;
 }
@@ -282,6 +281,10 @@ button.recherche {
 @media only screen and (min-width: 992px) {
   .push :nth-child(1) {
     order: 3;
+  }
+
+  .push > div > a {
+    margin: 0 2em 0 2em;
   }
 
   img {
