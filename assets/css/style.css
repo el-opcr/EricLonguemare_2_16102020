@@ -81,12 +81,20 @@ footer {
 
 .push {
   display: flex;
-  margin-left: auto;
+  flex-direction: column;
 }
 
 .push > div > a {
   font-weight: bold;
   color: #0065fc;
+}
+
+.push.fist-row {
+  align-items: flex-end;
+}
+
+.push.second-row {
+
 }
 
 p.accroche {
@@ -279,6 +287,11 @@ button.recherche {
 }
 
 @media only screen and (min-width: 992px) {
+  .push {
+    flex-direction: row;
+    margin-left: auto;
+  }
+
   .push :nth-child(1) {
     order: 3;
   }
