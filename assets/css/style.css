@@ -280,6 +280,10 @@ button.recherche {
 }
 
 @media only screen and (min-width: 992px) {
+  .push :nth-child(1) {
+    order: 3;
+  }
+
   img {
     width: 220px;
     height: 115px;
