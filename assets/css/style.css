@@ -200,6 +200,7 @@ p.bottom {
   padding-right: 1em;
   margin: 0.75em;
   color: black;
+  cursor: pointer;
   background-color: white;
   border: gainsboro solid 0.1em;
   border-radius: 50px;
@@ -238,6 +239,10 @@ p.bottom {
 
 .form-container {
   display: flex;
+}
+
+button {
+  cursor: pointer;
 }
 
 button.localisation {
