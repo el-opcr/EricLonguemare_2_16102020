@@ -61,17 +61,7 @@ footer {
   background-color: #f2f2f2;
 }
 
-#topnav {
-  margin-top: 50px;
-}
-
-#topnav img {
-  width: 100%;
-  object-fit: contain;
-}
-
 #topnav,
-#topnav div,
 #mainrow,
 .card-desk,
 #mainfooter {
@@ -79,25 +69,32 @@ footer {
   flex-wrap: wrap;
 }
 
-.push {
+#topnav {
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+#topnav img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.signin {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
 }
 
-.push > div > a {
-  margin: 0 2em 0 2em;
+.navigate {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.signin > a,
+.navigate > a {
   font-weight: bold;
   color: #0065fc;
-}
-
-.push > .first-row {
-  margin-left: auto;
-}
-
-.push > .second-row {
-  justify-content: space-between;
-  width: 375px;
 }
 
 p.accroche {
@@ -290,16 +287,23 @@ button.recherche {
 }
 
 @media only screen and (min-width: 992px) {
-  .push {
-    flex-direction: row;
+  #topnav {
+    justify-content: flex-end;
   }
 
-  .push :nth-child(1) {
-    order: 3;
+  .signin {
+    order: 1;
   }
 
-  .push > .second-row {
+  .navigate {
+    align-self: flex-start;
     width: auto;
+    margin-left: auto;
+  }
+
+  .signin > a,
+  .navigate > a {
+    margin: 0 2em 0 2em;
   }
 
   img {
