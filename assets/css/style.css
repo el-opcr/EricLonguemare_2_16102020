@@ -188,8 +188,13 @@ p.bottom {
   margin: 2em;
 }
 
-#mainfooter ul li:first-child {
+#mainfooter li:first-child {
+  padding-bottom: 1em;
   font-weight: bold;
+}
+
+#mainfooter li:nth-child(n+2) {
+  line-height: 2em;
 }
 
 #filtres {
