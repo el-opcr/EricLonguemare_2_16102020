@@ -91,6 +91,8 @@ footer {
   align-self: flex-end;
   justify-content: space-around;
   width: 100%;
+  padding: 20px;
+  border-bottom: #0065fc solid;
 }
 
 .signin > a,
@@ -321,6 +323,8 @@ button.recherche {
     align-self: flex-start;
     width: auto;
     margin-left: auto;
+    border: none;
+    padding: 0;
   }
 
   .signin > a,
