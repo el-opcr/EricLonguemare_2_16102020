@@ -292,13 +292,13 @@ input[type=text].rechercheText {
   border: gainsboro solid 0.1em;
 }
 
-button.recherche::before {
+button.search-button::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f002";
 }
 
-button.recherche {
+button.search-button {
   padding: 15px;
   font-size: 1.3em;
   color: white;
@@ -344,7 +344,7 @@ button.recherche {
     width: calc(100vw / 4);
   }
 
-  button.recherche::before {
+  button.search-button::before {
     content: "Rechercher";
   }
 
