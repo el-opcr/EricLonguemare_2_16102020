@@ -165,6 +165,13 @@ p.bottom {
   margin-bottom: auto;
 }
 
+.see-more {
+  height: 4em;
+  padding: 5% 0 0 8%;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
 #hebergement img,
 #activite img {
   border-top-right-radius: 5%;
@@ -181,8 +188,8 @@ p.bottom {
 }
 
 #mainfooter ul {
-  margin: 2em;
   min-width: 25%;
+  margin: 2em;
 }
 
 #mainfooter li:first-child {
