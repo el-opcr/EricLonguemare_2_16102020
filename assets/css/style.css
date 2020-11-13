@@ -63,6 +63,7 @@ footer {
 
 #topnav,
 #mainrow,
+.flex-header,
 .card-desk,
 #mainfooter {
   display: flex;
@@ -148,9 +149,15 @@ p.espace {
   order: -1;
 }
 
+.flex-header {
+  justify-content: space-between;
+  width: 90%;
+}
+
 #populaire .card {
   display: flex;
   width: 100%;
+  height: 150px;
 }
 
 #populaire img {
@@ -189,7 +196,7 @@ p.bottom {
 }
 
 #mainfooter ul {
-  min-width: 25%;
+  min-width: 22%;
   margin: 2em;
 }
 
@@ -278,6 +285,7 @@ button.localisation {
 }
 
 input[type=text].rechercheText {
+  width: calc(100vw / 2);
   padding: 15px;
   font-size: 1.1em;
   font-weight: bold;
@@ -300,7 +308,7 @@ button.recherche {
   border-bottom-right-radius: 15px;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 767px) {
   #topnav {
     justify-content: flex-end;
     height: 3em;
@@ -322,14 +330,18 @@ button.recherche {
   .navigate {
     align-self: flex-start;
     width: auto;
+    padding: 0;
     margin-left: auto;
     border: none;
-    padding: 0;
   }
 
   .signin > a,
   .navigate > a {
     margin: 0 2em 0 2em;
+  }
+
+  input[type=text].rechercheText {
+    width: calc(100vw / 4);
   }
 
   button.recherche::before {
@@ -357,7 +369,8 @@ button.recherche {
 
   #populaire .card {
     width: 90%;
-    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   #populaire img {
