@@ -300,12 +300,12 @@ button.search-button::before {
 
 button.search-button {
   padding: 15px;
+  margin-left: -20px;
   font-size: 1.3em;
   color: white;
   background-color: #0065fc;
   border: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 15px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 @media only screen and (min-width: 767px) {
@@ -346,6 +346,10 @@ button.search-button {
 
   button.search-button::before {
     content: "Rechercher";
+  }
+
+  button.search-button {
+    border-radius: 0 15px 15px 0;
   }
 
   #hebergement {
