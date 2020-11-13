@@ -188,6 +188,10 @@ p.bottom {
   margin: 2em;
 }
 
+#mainfooter ul li:first-child {
+  font-weight: bold;
+}
+
 #filtres {
   display: flex;
   flex-wrap: wrap;
