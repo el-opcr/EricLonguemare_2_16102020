@@ -71,6 +71,7 @@ footer {
 
 #topnav {
   justify-content: space-between;
+  height: 5em;
   margin-top: 50px;
 }
 
@@ -300,6 +301,7 @@ button.recherche {
 @media only screen and (min-width: 992px) {
   #topnav {
     justify-content: flex-end;
+    height: 3em;
   }
 
   img {
