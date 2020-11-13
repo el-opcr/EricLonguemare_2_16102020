@@ -149,9 +149,9 @@ p.espace {
   order: -1;
 }
 
-.flex-header > span:nth-child(2) {
-  margin-left: 50px;
-  color: blue;
+.flex-header {
+  justify-content: space-between;
+  width: 90%;
 }
 
 #populaire .card {
@@ -360,10 +360,6 @@ button.recherche {
     width: 31.83%;
     margin-left: 1.5%;
     border-radius: 5%;
-  }
-
-  .flex-header > span:nth-child(2) {
-    margin-left: 150px;
   }
 
   #populaire .card {
