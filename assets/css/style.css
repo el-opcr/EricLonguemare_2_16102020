@@ -75,7 +75,8 @@ footer {
 }
 
 #topnav img {
-  max-width: 100%;
+  max-width: 100px;
+  margin-top: -1.33em;
   object-fit: contain;
 }
 
@@ -301,6 +302,15 @@ button.recherche {
     justify-content: flex-end;
   }
 
+  img {
+    width: 220px;
+    height: 115px;
+  }
+
+  #topnav img {
+    margin-top: -50px;
+  }
+
   .signin {
     order: 1;
   }
@@ -314,11 +324,6 @@ button.recherche {
   .signin > a,
   .navigate > a {
     margin: 0 2em 0 2em;
-  }
-
-  img {
-    width: 220px;
-    height: 115px;
   }
 
   button.recherche::before {
