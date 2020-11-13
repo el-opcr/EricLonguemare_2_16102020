@@ -66,7 +66,6 @@ footer {
 
 #topnav img {
   width: 100%;
-  margin-top: -50px;
   object-fit: contain;
 }
 
@@ -81,13 +80,23 @@ footer {
 
 .push {
   display: flex;
+  flex-direction: column;
   margin-left: auto;
 }
 
-.push > a {
+.push > div > a {
   margin: 0 2em 0 2em;
   font-weight: bold;
   color: #0065fc;
+}
+
+.push > .first-row {
+  margin-left: auto;
+}
+
+.push > .second-row {
+  justify-content: space-between;
+  width: 375px;
 }
 
 p.accroche {
@@ -182,6 +191,9 @@ p.bottom {
 }
 
 #filtres {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
   font-size: 1.1em;
   font-weight: bold;
 }
@@ -200,6 +212,7 @@ p.bottom {
   padding-right: 1em;
   margin: 0.75em;
   color: black;
+  cursor: pointer;
   background-color: white;
   border: gainsboro solid 0.1em;
   border-radius: 50px;
@@ -240,6 +253,10 @@ p.bottom {
   display: flex;
 }
 
+button {
+  cursor: pointer;
+}
+
 button.localisation {
   padding: 15px;
   font-size: 1.1em;
@@ -272,6 +289,18 @@ button.recherche {
 }
 
 @media only screen and (min-width: 992px) {
+  .push {
+    flex-direction: row;
+  }
+
+  .push :nth-child(1) {
+    order: 3;
+  }
+
+  .push > .second-row {
+    width: auto;
+  }
+
   img {
     width: 220px;
     height: 115px;
