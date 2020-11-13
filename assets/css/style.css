@@ -180,12 +180,9 @@ p.bottom {
   margin-top: 3em;
 }
 
-#mainfooter a {
-  color: black;
-}
-
 #mainfooter ul {
   margin: 2em;
+  min-width: 25%;
 }
 
 #mainfooter li:first-child {
