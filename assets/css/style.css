@@ -321,6 +321,10 @@ button.search-button {
 }
 
 @media only screen and (max-width: 767px) {
+  .signin > a {
+    padding-bottom: 20px;
+  }
+
   .navigate > a {
     width: 100%;
     padding-top: 20px;
@@ -330,6 +334,10 @@ button.search-button {
 
   .navigate > a:hover {
     border-bottom: 1px solid #0065fc;
+  }
+
+  p.accroche {
+    margin-top: 2em;
   }
 }
 
