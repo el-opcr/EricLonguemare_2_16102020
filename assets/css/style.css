@@ -63,6 +63,7 @@ footer {
 
 #topnav,
 #mainrow,
+#information,
 .flex-header,
 .card-desk,
 #mainfooter {
@@ -261,7 +262,11 @@ p.bottom {
   background-color: #0065fc;
 }
 
-.information {
+#information {
+  flex-wrap: nowrap;
+}
+
+.icon-information {
   width: 1em;
   height: 1em;
   padding: 0.3em;
