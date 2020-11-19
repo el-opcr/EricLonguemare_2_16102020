@@ -63,6 +63,7 @@ footer {
 
 #topnav,
 #mainrow,
+#information,
 .flex-header,
 .card-desk,
 #mainfooter {
@@ -92,13 +93,19 @@ footer {
   align-self: flex-end;
   justify-content: space-around;
   width: 100%;
-  padding: 20px;
-  border-bottom: #0065fc solid;
 }
 
 .signin > a,
 .navigate > a {
   font-weight: bold;
+  color: #0065fc;
+}
+
+.navigate > a {
+  color: black;
+}
+
+.navigate > a:hover {
   color: #0065fc;
 }
 
@@ -255,7 +262,11 @@ p.bottom {
   background-color: #0065fc;
 }
 
-.information {
+#information {
+  flex-wrap: nowrap;
+}
+
+.icon-information {
   width: 1em;
   height: 1em;
   padding: 0.3em;
@@ -306,6 +317,20 @@ button.search-button {
   background-color: #0065fc;
   border: none;
   border-radius: 15px 15px 15px 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .navigate > a {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+  }
+
+  .navigate > a:hover {
+    border-bottom: 1px solid #0065fc;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
