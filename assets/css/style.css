@@ -308,7 +308,7 @@ button.search-button {
   border-radius: 15px 15px 15px 15px;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   #topnav {
     justify-content: flex-end;
     height: 3em;
@@ -386,28 +386,62 @@ button.search-button {
     justify-content: space-between;
   }
 
-  #activite img {
-    width: calc((100vw - 210px) / 4);
-    min-height: calc((((100vw - 210px) / 4) / 2) - 1em);
-  }
-
-  #activite img.long {
-    min-height: calc((100vw - 210px) / 4);
-  }
-
   #mainfooter {
     padding-right: 2%;
     padding-left: 2%;
   }
 }
 
-@media only screen and (min-width: 1441px) {
+/*
+        height width
+  768 = 1.66   26vw # ipad
+  800 = 1.66   26vw # kindle fire
+  1024 = 1.3   20vw
+  1280 = 1.05  20vw
+  1440 = 1.04  20vw
+  1920 = 1.02  20vw
+   */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   #activite img {
-    width: calc((100vw - 710px) / 4);
-    min-height: calc(((((100vw - 710px) / 4) / 2) - 1em));
+    width: calc((100vw - 26vw) / 4);
+    min-height: calc((((100vw - 20vw) / 4) / 2) - 1em);
   }
 
   #activite img.long {
-    min-height: calc(((100vw - 710px) / 4));
+    min-height: calc(((100vw - 20vw) / 4) * 1.64);
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  #activite img {
+    width: calc((100vw - 20vw) / 4);
+    min-height: calc((((100vw - 20vw) / 4) / 2) - 1em);
+  }
+
+  #activite img.long {
+    min-height: calc(((100vw - 20vw) / 4) * 1.3);
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  #activite img {
+    width: calc((100vw - 20vw) / 4);
+    min-height: calc((((100vw - 20vw) / 4) / 2) - 1em);
+  }
+
+  #activite img.long {
+    min-height: calc(((100vw - 20vw) / 4) * 1.04);
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  #activite img {
+    width: calc((100vw - 20vw) / 5);
+    min-height: calc(((((100vw - (100vw / 5)) / 4) / 2) - 1em));
+  }
+
+  #activite img.long {
+    min-height: calc(((100vw - (100vw / 5)) / 4) * 1.02);
   }
 }
