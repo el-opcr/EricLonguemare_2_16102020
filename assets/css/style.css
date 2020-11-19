@@ -102,6 +102,10 @@ footer {
   color: #0065fc;
 }
 
+.navigate > a:visited {
+  color: black;
+}
+
 p.accroche {
   margin-bottom: 0;
   font-size: 1.33em;
