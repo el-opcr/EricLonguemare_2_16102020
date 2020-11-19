@@ -3,6 +3,7 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("../fonts/raleway-v18-latin-regular.eot"); /* IE9 Compat Modes */
   src:
     url("../fonts/raleway-v18-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -330,7 +331,6 @@ button.search-button {
   .navigate > a:hover {
     border-bottom: 1px solid #0065fc;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
