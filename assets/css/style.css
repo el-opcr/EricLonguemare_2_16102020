@@ -441,6 +441,10 @@ button.search-button {
     height: 140px;
   }
 
+  #activite .card-desk {
+    justify-content: space-between;
+  }
+
   #mainfooter {
     padding-right: 2%;
     padding-left: 2%;
