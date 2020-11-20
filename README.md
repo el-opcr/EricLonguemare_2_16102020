@@ -2,7 +2,7 @@ Preview :
 
 [el-opcr.github.io](https://el-opcr.github.io/EricLonguemare_2_16102020/)
 
-- [x] Filter buttons are hoveable
+- [x] Filter buttons are hoverable
 - [x] Cards are clickable
 - [X] Menu links are anchors for "Activités" and "Hébergement"
 - [X] Use Font Awasome and Raleway
