@@ -34,7 +34,11 @@ section {
   margin: 2% 0 0 0;
 }
 
-section > header {
+h1 {
+  font-size: 1.33em;
+}
+
+h2 {
   height: 3em;
   padding: 2% 0 0 2%;
   font-size: 1.33em;
@@ -106,14 +110,16 @@ footer {
   color: black;
 }
 
+.flex-header a {
+  font-size: 1.33em;
+}
+
 .navigate > a:hover {
   color: #0065fc;
 }
 
-p.accroche {
+h1.accroche {
   margin-bottom: 0;
-  font-size: 1.33em;
-  font-weight: bold;
 }
 
 p.accroche-secondaire {
@@ -133,7 +139,7 @@ p.accroche-secondaire {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.08);
 }
 
-.card header,
+.card h3,
 .card p {
   padding-top: 5%;
   padding-left: 5%;
@@ -158,11 +164,12 @@ p.espace {
 }
 
 .flex-header {
+  align-items: baseline;
   justify-content: space-between;
   width: 90%;
 }
 
-#populaire a {
+#populaire .card-desk a {
   width: 100%;
 }
 
@@ -351,7 +358,7 @@ button.search-button {
     width: 100%;
   }
 
-  p.accroche {
+  h1.accroche {
     margin-top: 2em;
   }
 }
@@ -408,7 +415,7 @@ button.search-button {
     border-radius: 5%;
   }
 
-  section > header {
+  h2 {
     height: 2em;
   }
 
