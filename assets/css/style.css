@@ -79,12 +79,10 @@ footer {
 #topnav {
   justify-content: space-between;
   height: 5em;
-  margin-top: 50px;
 }
 
 #topnav img {
   max-width: 100px;
-  margin-top: -1.33em;
   object-fit: contain;
 }
 
@@ -119,6 +117,7 @@ footer {
 }
 
 h1.accroche {
+  margin-top: 2em;
   margin-bottom: 0;
 }
 
@@ -337,6 +336,10 @@ button.search-button {
 }
 
 @media only screen and (max-width: 767px) {
+  #topnav {
+    margin-top: 2em;
+  }
+
   .signin > a {
     padding-bottom: 20px;
   }
@@ -367,15 +370,12 @@ button.search-button {
   #topnav {
     justify-content: flex-end;
     height: 3em;
+    margin-bottom: 2em;
   }
 
   img {
     width: 220px;
     height: 115px;
-  }
-
-  #topnav img {
-    margin-top: -50px;
   }
 
   .signin {
@@ -392,7 +392,12 @@ button.search-button {
 
   .signin > a,
   .navigate > a {
+    padding-top: 30px;
     margin: 0 2em 0 2em;
+  }
+
+  .navigate > a:hover {
+    border-top: 1px solid #0065fc;
   }
 
   input[type=text].rechercheText {
@@ -437,7 +442,6 @@ button.search-button {
   }
 
   #activite .card-desk {
-    align-items: end;
     justify-content: space-between;
   }
 
@@ -449,10 +453,10 @@ button.search-button {
 
 /*
         height width
-  768 = 1.66   26vw # ipad
-  800 = 1.66   26vw # kindle fire
-  1024 = 1.3   20vw
-  1280 = 1.05  20vw
+  768 = 2   26vw # ipad
+  800 = 2   26vw # kindle fire
+  1024 = 1.42  20vw
+  1280 = 1.15  20vw
   1440 = 1.04  20vw
   1920 = 1.02  20vw
    */
@@ -460,29 +464,72 @@ button.search-button {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   #activite img {
     width: calc((100vw - 26vw) / 4);
-    min-height: calc((((100vw - 20vw) / 4) / 2) - 1em);
+    min-height: calc((((100vw - 26vw) / 4) / 2) - 2em);
+  }
+
+  #activite .card {
+    height: 200px;
+  }
+
+  #activite .card.long {
+    height: 400px;
   }
 
   #activite img.long {
-    min-height: calc(((100vw - 20vw) / 4) * 1.64);
+    min-height: calc(((100vw - 26vw) / 4) * 2);
   }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
   #activite img {
     width: calc((100vw - 20vw) / 4);
-    min-height: calc((((100vw - 20vw) / 4) / 2) - 1em);
+    min-height: calc((((100vw - 20vw) / 4) / 2) - 2em);
+  }
+
+  #activite .card {
+    height: 200px;
+  }
+
+  #activite .card.long {
+    height: 400px;
   }
 
   #activite img.long {
-    min-height: calc(((100vw - 20vw) / 4) * 1.3);
+    min-height: calc(((100vw - 20vw) / 4) * 1.42);
   }
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
   #activite img {
     width: calc((100vw - 20vw) / 4);
-    min-height: calc((((100vw - 20vw) / 4) / 2) - 1em);
+    min-height: calc((((100vw - 20vw) / 4) / 2) - 2em);
+  }
+
+  #activite .card {
+    height: 200px;
+  }
+
+  #activite .card.long {
+    height: 400px;
+  }
+
+  #activite img.long {
+    min-height: calc(((100vw - 20vw) / 4) * 1.15);
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1927px) {
+  #activite img {
+    width: calc((100vw - 20vw) / 4);
+    min-height: calc((((100vw - 20vw) / 4) / 2) - 2em);
+  }
+
+  #activite .card {
+    height: 200px;
+  }
+
+  #activite .card.long {
+    height: 400px;
   }
 
   #activite img.long {
@@ -490,10 +537,18 @@ button.search-button {
   }
 }
 
-@media only screen and (min-width: 1441px) {
+@media only screen and (min-width: 1920px) {
   #activite img {
     width: calc((100vw - 20vw) / 5);
-    min-height: calc(((((100vw - (100vw / 5)) / 4) / 2) - 1em));
+    min-height: calc(((((100vw - (100vw / 5)) / 4) / 2) - 2em));
+  }
+
+  #activite .card {
+    height: 250px;
+  }
+
+  #activite .card.long {
+    height: 500px;
   }
 
   #activite img.long {
