@@ -5,7 +5,7 @@ Preview :
 - [x] Filter buttons are hoverable
 - [x] Cards are clickable
 - [X] Menu links are anchors for "Activités" and "Hébergement"
-- [X] Use Font Awasome and Raleway
+- [X] Use Font Awesome and Raleway
 - [X] Colors are blue #0065FC, light blue #DEEBFF, and light gray #F2F2F2
 - [X] Use flex
 
