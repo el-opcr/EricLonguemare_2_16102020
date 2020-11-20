@@ -471,8 +471,18 @@ button.search-button {
     height: 200px;
   }
 
+  #activite .card h3 {
+    position: relative;
+    bottom: -5px;
+  }
+
   #activite .card.long {
     height: 400px;
+  }
+
+  #activite .card.long h3 {
+    position: relative;
+    bottom: -20px;
   }
 
   #activite img.long {
@@ -490,8 +500,18 @@ button.search-button {
     height: 200px;
   }
 
+  #activite .card h3 {
+    position: relative;
+    bottom: -5px;
+  }
+
   #activite .card.long {
     height: 400px;
+  }
+
+  #activite .card.long h3 {
+    position: relative;
+    bottom: -30px;
   }
 
   #activite img.long {
@@ -509,8 +529,18 @@ button.search-button {
     height: 200px;
   }
 
+  #activite .card h3 {
+    position: relative;
+    bottom: -10px;
+  }
+
   #activite .card.long {
     height: 400px;
+  }
+
+  #activite .card.long h3 {
+    position: relative;
+    bottom: -30px;
   }
 
   #activite img.long {
@@ -528,8 +558,18 @@ button.search-button {
     height: 200px;
   }
 
+  #activite .card h3 {
+    position: relative;
+    bottom: -10px;
+  }
+
   #activite .card.long {
     height: 400px;
+  }
+
+  #activite .card.long h3 {
+    position: relative;
+    bottom: -30px;
   }
 
   #activite img.long {
@@ -547,8 +587,18 @@ button.search-button {
     height: 250px;
   }
 
+  #activite .card h3 {
+    position: relative;
+    bottom: -20px;
+  }
+
   #activite .card.long {
     height: 500px;
+  }
+
+  #activite .card.long h3 {
+    position: relative;
+    bottom: -40px;
   }
 
   #activite img.long {
