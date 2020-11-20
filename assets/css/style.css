@@ -162,6 +162,10 @@ p.espace {
   width: 90%;
 }
 
+#populaire a {
+  width: 100%;
+}
+
 #populaire .card {
   display: flex;
   width: 100%;
@@ -341,6 +345,12 @@ button.search-button {
     border-bottom: 1px solid #0065fc;
   }
 
+  #activite .card-desk a,
+  #activite .card-desk div,
+  #hebergement .card-desk a {
+    width: 100%;
+  }
+
   p.accroche {
     margin-top: 2em;
   }
@@ -407,10 +417,6 @@ button.search-button {
     width: 31.83%;
     margin-left: 1.5%;
     border-radius: 5%;
-  }
-
-  #populaire a {
-    width: 100%;
   }
 
   #populaire .card {
