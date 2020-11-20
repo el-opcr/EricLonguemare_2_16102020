@@ -2,6 +2,13 @@ Preview :
 
 [el-opcr.github.io](https://el-opcr.github.io/EricLonguemare_2_16102020/)
 
+- [x] Filter buttons are hoveable
+- [x] Cards are clickable
+- [X] Menu links are anchors for "Activités" and "Hébergement"
+- [X] Use Font Awasome and Raleway
+- [X} Colors are blue #0065FC, light blue #DEEBFF, and light gray #F2F2F2
+- [X] Use flex
+
 Responsiveness :
 
 - [x] 200px < Viewport < 768 px
