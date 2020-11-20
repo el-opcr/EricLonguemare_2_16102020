@@ -258,6 +258,11 @@ p.bottom {
   border-radius: 50px;
 }
 
+#filtres input[type="checkbox"]:hover + span {
+  color: white;
+  background-color: #0065fc;
+}
+
 #filtres input[type="checkbox"]:checked + span {
   color: white;
   background-color: #0065fc;
