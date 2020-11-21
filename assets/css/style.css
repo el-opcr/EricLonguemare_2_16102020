@@ -112,10 +112,6 @@ footer {
   font-size: 1.33em;
 }
 
-.navigate > a:hover {
-  color: #0065fc;
-}
-
 h1.accroche {
   margin-top: 2em;
   margin-bottom: 0;
@@ -148,6 +144,10 @@ p.accroche-secondaire {
 p.espace {
   padding: 0 0 0 5% !important;
   margin: 0.5em 0 0 0 !important;
+}
+
+p.espace i {
+  padding-bottom: 20px;
 }
 
 .blue-star {
@@ -351,7 +351,8 @@ button.search-button {
     border-bottom: 1px solid black;
   }
 
-  .navigate > a:hover {
+  .navigate > a:active {
+    color: #0065fc;
     border-bottom: 1px solid #0065fc;
   }
 
@@ -397,6 +398,11 @@ button.search-button {
   }
 
   .navigate > a:hover {
+    border-top: 1px solid #0065fc;
+  }
+
+  .navigate > a:active {
+    color: #0065fc;
     border-top: 1px solid #0065fc;
   }
 
