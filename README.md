@@ -4,7 +4,7 @@ Preview :
 
 - [x] Filter buttons are hoverable
 - [x] Cards are clickable
-- [X] Menu links are anchors for "Activités" and "Hébergement"
+- [X] Menu links are anchors for "Activités" and "Hébergement". They have top border for desktop, and bottom borders for mobile. Color change on active state for         mobile and desktop, and hover state for desktop only.
 - [X] Use Font Awesome and Raleway
 - [X] Colors are blue #0065FC, light blue #DEEBFF, and light gray #F2F2F2
 - [X] Use flex
