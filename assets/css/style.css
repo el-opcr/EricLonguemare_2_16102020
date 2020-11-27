@@ -61,6 +61,15 @@ img {
   border-top-left-radius: 5%;
 }
 
+.visually-hidden {
+  position: absolute;
+  left:     -10000px;
+  top:      auto;
+  width:    1px;
+  height:   1px;
+  overflow: hidden;
+}
+
 #populaire,
 footer {
   background-color: #f2f2f2;
