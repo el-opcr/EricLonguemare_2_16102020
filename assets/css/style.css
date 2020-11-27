@@ -509,6 +509,7 @@ button.search-button {
   #activite img {
     width: calc((100vw - 20vw) / 4);
     min-height: calc((((100vw - 20vw) / 4) / 2) - 2em);
+    padding-right: 2px;
   }
 
   #activite .card {
@@ -538,6 +539,7 @@ button.search-button {
   #activite img {
     width: calc((100vw - 20vw) / 4);
     min-height: calc((((100vw - 20vw) / 4) / 2) - 2em);
+    padding-right: 2px;
   }
 
   #activite .card {
@@ -567,6 +569,7 @@ button.search-button {
   #activite img {
     width: calc((100vw - 20vw) / 4);
     min-height: calc((((100vw - 20vw) / 4) / 2) - 2em);
+    padding-right: 2px;
   }
 
   #activite .card {
@@ -596,6 +599,7 @@ button.search-button {
   #activite img {
     width: calc((100vw - 20vw) / 5);
     min-height: calc(((((100vw - (100vw / 5)) / 4) / 2) - 2em));
+    padding-right: 2px;
   }
 
   #activite .card {
