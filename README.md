@@ -24,4 +24,4 @@ LightHouse reports :
 W3C linters reports :
 
 - [x] [HTML5](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fel-opcr.github.io%2FEricLonguemare_2_16102020%2F)
-- [x] [CSS3](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fel-opcr.github.io%2FEricLonguemare_2_16102020%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr#warnings)
+- [x] [CSS3](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fel-opcr.github.io%2FEricLonguemare_2_16102020%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr)
