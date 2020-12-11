@@ -494,6 +494,7 @@ button.search-button {
   #activite .card {
     width: auto;
     height: 280px;
+    padding: 0;
   }
 
   #activite .card.long {
