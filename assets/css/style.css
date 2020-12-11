@@ -56,8 +56,6 @@ form {
 img {
   object-fit: cover;
   width: 100%;
-  height: auto;
-  max-height: 120px;
   border-top-left-radius: 5%;
 }
 
@@ -189,7 +187,6 @@ p.espace i {
 
 #populaire img {
   width: 33.33%;
-  max-height: 140px;
   border-bottom-left-radius: 5%;
 }
 
@@ -213,6 +210,10 @@ p.bottom {
 #hebergement img,
 #activite img {
   border-top-right-radius: 5%;
+}
+
+#hebergement img {
+  max-height: 250px;
 }
 
 #mainfooter {
@@ -371,6 +372,10 @@ button.search-button {
     width: 100%;
   }
 
+  #activite img {
+    max-height: 250px;
+  }
+
   h1.accroche {
     margin-top: 2em;
   }
@@ -381,11 +386,6 @@ button.search-button {
     justify-content: flex-end;
     height: 3em;
     margin-bottom: 2em;
-  }
-
-  img {
-    width: 220px;
-    height: 115px;
   }
 
   .signin {
@@ -435,6 +435,11 @@ button.search-button {
     border-radius: 5%;
   }
 
+  #hebergement img {
+    width: 220px;
+    height: 115px;
+  }
+
   h2 {
     height: 2em;
   }
@@ -453,174 +458,34 @@ button.search-button {
   }
 
   #populaire img {
-    height: 140px;
+    height: auto;
   }
 
   #activite .card-desk {
+    flex-wrap: nowrap;
     justify-content: space-between;
+  }
+
+  #activite .card {
+    width: auto;
+    height: 280px;
+  }
+
+  #activite .card.long {
+    width: auto;
+    height: 560px;
+  }
+
+  #activite img {
+    height: 220px;
+  }
+
+  #activite img.picture-long {
+    height: 500px;
   }
 
   #mainfooter {
     padding-right: 2%;
     padding-left: 2%;
-  }
-}
-
-/*
-        height width
-  768 = 2   26vw # ipad
-  800 = 2   26vw # kindle fire
-  1024 = 1.42  20vw
-  1280 = 1.15  20vw
-  1440 = 1.04  20vw
-  1920 = 1.02  20vw
-   */
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  #activite img {
-    width: calc((100vw - 26vw) / 4);
-    min-height: calc((((100vw - 26vw) / 4) / 2) - 2em);
-  }
-
-  #activite .card {
-    height: 200px;
-  }
-
-  #activite .card h3 {
-    position: relative;
-    bottom: -5px;
-  }
-
-  #activite .card.long {
-    height: 400px;
-  }
-
-  #activite .card.long h3 {
-    position: relative;
-    bottom: -20px;
-  }
-
-  #activite img.long {
-    min-height: calc(((100vw - 26vw) / 4) * 2);
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1279px) {
-  #activite img {
-    width: calc((100vw - 20vw) / 4);
-    min-height: calc((((100vw - 20vw) / 4) / 2) - 2em);
-    padding-right: 2px;
-  }
-
-  #activite .card {
-    height: 200px;
-  }
-
-  #activite .card h3 {
-    position: relative;
-    bottom: -5px;
-  }
-
-  #activite .card.long {
-    height: 400px;
-  }
-
-  #activite .card.long h3 {
-    position: relative;
-    bottom: -30px;
-  }
-
-  #activite img.long {
-    min-height: calc(((100vw - 20vw) / 4) * 1.42);
-  }
-}
-
-@media only screen and (min-width: 1280px) and (max-width: 1439px) {
-  #activite img {
-    width: calc((100vw - 20vw) / 4);
-    min-height: calc((((100vw - 20vw) / 4) / 2) - 2em);
-    padding-right: 2px;
-  }
-
-  #activite .card {
-    height: 200px;
-  }
-
-  #activite .card h3 {
-    position: relative;
-    bottom: -10px;
-  }
-
-  #activite .card.long {
-    height: 400px;
-  }
-
-  #activite .card.long h3 {
-    position: relative;
-    bottom: -30px;
-  }
-
-  #activite img.long {
-    min-height: calc(((100vw - 20vw) / 4) * 1.15);
-  }
-}
-
-@media only screen and (min-width: 1440px) and (max-width: 1927px) {
-  #activite img {
-    width: calc((100vw - 20vw) / 4);
-    min-height: calc((((100vw - 20vw) / 4) / 2) - 2em);
-    padding-right: 2px;
-  }
-
-  #activite .card {
-    height: 200px;
-  }
-
-  #activite .card h3 {
-    position: relative;
-    bottom: -10px;
-  }
-
-  #activite .card.long {
-    height: 400px;
-  }
-
-  #activite .card.long h3 {
-    position: relative;
-    bottom: -30px;
-  }
-
-  #activite img.long {
-    min-height: calc(((100vw - 20vw) / 4) * 1.04);
-  }
-}
-
-@media only screen and (min-width: 1920px) {
-  #activite img {
-    width: calc((100vw - 20vw) / 5);
-    min-height: calc(((((100vw - (100vw / 5)) / 4) / 2) - 2em));
-    padding-right: 2px;
-  }
-
-  #activite .card {
-    height: 250px;
-  }
-
-  #activite .card h3 {
-    position: relative;
-    bottom: -20px;
-  }
-
-  #activite .card.long {
-    height: 500px;
-  }
-
-  #activite .card.long h3 {
-    position: relative;
-    bottom: -40px;
-  }
-
-  #activite img.long {
-    min-height: calc(((100vw - (100vw / 5)) / 4) * 1.02);
   }
 }
