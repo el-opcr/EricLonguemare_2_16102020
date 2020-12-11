@@ -16,7 +16,9 @@ Responsiveness Chrome and Firefox browsers:
 - [x] 200px < Viewport < 768 px
 - [x] 768px < Viewport < 1920 px
 
-- [1024px wide chrome view](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/live-chrome-display/Activity-pictures-title-alignment-1024px-wide-real-display.jpg) - [1024px wide chrome full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_(Laptop%20with%20standard%20screen).png)
+[1024px wide chrome view](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/live-chrome-display/Activity-pictures-title-alignment-1024px-wide-real-display.jpg) - [1024px wide chrome full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_(Laptop%20with%20standard%20screen).png)
+
+[1280px wide chrome view](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/live-chrome-display/Activity-pictures-title-alignment-1280px-wide-real-display.jpg) - [1280px wide chrome full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_(Laptop%20with%20MDPI%20screen).png)
 
 LightHouse reports :
 
