@@ -535,7 +535,7 @@ button.search-button {
   }
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
   #activite img {
     width: calc((100vw - 20vw) / 4);
     min-height: calc((((100vw - 20vw) / 4) / 2) - 2em);
@@ -558,6 +558,35 @@ button.search-button {
   #activite .card.long h3 {
     position: relative;
     bottom: -30px;
+  }
+
+  #activite img.long {
+    min-height: calc(((100vw - 20vw) / 4) * 1.15);
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+  #activite img {
+    width: calc((100vw - 20vw) / 4);
+    min-height: calc((((100vw - 20vw) / 4) / 2) - 2em);
+    padding-right: 2px;
+  }
+
+  #activite .card {
+    height: 200px;
+  }
+
+  #activite .card h3 {
+    position: relative;
+    bottom: -10px;
+  }
+
+  #activite .card.long {
+    height: 400px;
+  }
+
+  #activite .card.long h3 {
+    position: relative;
   }
 
   #activite img.long {
