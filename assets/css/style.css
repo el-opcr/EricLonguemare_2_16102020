@@ -382,6 +382,10 @@ button.search-button {
 }
 
 @media only screen and (min-width: 768px) {
+  h2 {
+    height: 2em;
+  }
+
   #topnav {
     justify-content: flex-end;
     height: 3em;
@@ -435,13 +439,30 @@ button.search-button {
     border-radius: 5%;
   }
 
-  #hebergement img {
-    width: 220px;
-    height: 115px;
+  #hebergement .card-desk {
+    gap: 0;
   }
 
-  h2 {
-    height: 2em;
+  #hebergement .card {
+    width: 270px;
+    height: 260px;
+    margin: 10px;
+  }
+
+  #hebergement img {
+    height: 150px;
+  }
+
+  #hebergement h2 {
+    padding: 4% 0 0 4%;
+  }
+
+  #hebergement h3 {
+    padding-top: 0;
+  }
+
+  #hebergement .see-more {
+    padding: 5% 0 0 4%;
   }
 
   #populaire {
