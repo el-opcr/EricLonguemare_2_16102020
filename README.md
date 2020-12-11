@@ -16,7 +16,7 @@ Responsiveness Chrome and Firefox browsers:
 - [x] 200px < Viewport < 768 px
 - [x] 768px < Viewport < 1920 px
 
-Screen shots, Chrome Version 87.0.4280.66 (Build officiel) (64 bits) :
+Screen shots, Chrome Version 87.0.4280.66 (Build officiel) (64 bits), same with Chromium: 86.0.4240.198 (Build officiel) (64 bits) :
 
 [1024px wide chrome DevTools view](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/live-chrome-display/Activity-pictures-title-alignment-1024px-wide-real-display.jpg) - [1024px wide chrome full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_(Laptop%20with%20standard%20screen).png) - [1024px wide chrome full page screenshot with pixel ratio Chrome DevTools bug corrected](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_(Laptop%20with%20standard%20screen)_pixel_ratio_1.png)
 
