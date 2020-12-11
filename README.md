@@ -22,7 +22,7 @@ Responsiveness Chrome and Firefox browsers:
 
 [1440px wide chrome DevTools view](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/live-chrome-display/Activity-pictures-title-alignment-1440px-wide-real-display.jpg) - [1440px wide chrome full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_(Laptop%20with%20HiDPI%20screen)%20(2).png)
 
-[1920px wide chrome DevTools view](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/live-chrome-display/Activity-pictures-title-alignment-1920px-wide-real-display.jpg) - [1920px wide chrome full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_%20(1920px)).png)
+[1920px wide chrome DevTools view](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/live-chrome-display/Activity-pictures-title-alignment-1920px-wide-real-display.jpg) - [1920px wide chrome full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_%20(1920px).png)
 
 LightHouse reports :
 
