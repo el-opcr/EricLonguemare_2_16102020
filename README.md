@@ -26,6 +26,17 @@ Screen shots, Chrome Version 87.0.4280.66 (Build officiel) (64 bits), same with 
 
 [1920px wide chrome DevTools view](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/live-chrome-display/Activity-pictures-title-alignment-1920px-wide-real-display.jpg) - [1920px wide chrome full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_1920px.png) - [1920px wide chrome full page screenshot with pixel ratio Chrome DevTools bug corrected](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_1920px_pixel_ratio_1.png)
 
+Screen shots Firefox 82.0.3 (64 bits) :
+
+[1024px wide Firefox full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-11%20%C3%A0%2017.10.29-fullpage-1024px.png)
+
+[1280px wide Firefox full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-11%20%C3%A0%2017.12.16-fullpage-1280px.png)
+
+[1440px wide Firefox full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-11%20%C3%A0%2017.14.51-fullpage-1440px.png)
+
+[1920px wide Firefox full page screenshot](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-11%20%C3%A0%2017.03.54-fullpage%201920px.png)
+
+
 LightHouse reports :
 
 - [x] [Desktop](https://googlechrome.github.io/lighthouse/viewer/?gist=33720f299e12b1595a3417e9930e7ee9)
