@@ -392,6 +392,11 @@ button.search-button {
   h1.accroche {
     margin-top: 2em;
   }
+
+  #mainfooter {
+    gap: 0;
+    padding: 0;
+  }
 }
 
 @media only screen and (min-width: 768px) {
