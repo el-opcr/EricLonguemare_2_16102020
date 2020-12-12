@@ -135,7 +135,7 @@ p.accroche-secondaire {
 }
 
 .card {
-  padding: 0.75%;
+  padding: 8px;
   background-color: white;
   border-radius: 5%;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.08);
@@ -168,17 +168,17 @@ p.accroche-secondaire {
 }
 
 #populaire .card-desk a {
-  width: 100%;
+  display: flex;
 }
 
 #populaire .card {
   display: flex;
-  width: 100%;
+  flex: 1;
   height: 150px;
 }
 
 #populaire img {
-  width: 33.33%;
+  width: 40%;
   border-bottom-left-radius: 5%;
 }
 
@@ -189,7 +189,7 @@ p.accroche-secondaire {
 
 p.bottom {
   margin-top: auto;
-  margin-bottom: auto;
+  line-height: 0;
 }
 
 .see-more {
@@ -385,6 +385,19 @@ button.search-button {
     padding: 0 0 0 5%;
   }
 
+  #activite .card-desk {
+    gap: 0;
+  }
+
+  #activite .card {
+    padding: 0;
+  }
+
+  #activite .card-desk > div > a > .card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
   #activite .card-desk a,
   #activite .card-desk div,
   #hebergement .card-desk a {
@@ -466,8 +479,8 @@ button.search-button {
   }
 
   #hebergement {
+    flex: 2;
     order: 0;
-    width: 65.16%;
     margin-right: 1.5%;
     background-color: #f2f2f2;
     border-radius: 5%;
@@ -475,11 +488,19 @@ button.search-button {
 
   #hebergement .card-desk {
     gap: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #hebergement .card-desk a {
+    display: flex;
+    flex-basis: 33.3333%;
   }
 
   #hebergement .card {
-    width: 270px;
-    height: 260px;
+    flex: 1;
+    width: auto;
+    height: auto;
     margin: 10px;
   }
 
@@ -488,7 +509,7 @@ button.search-button {
   }
 
   #hebergement h2 {
-    padding: 4% 0 0 4%;
+    padding: 4% 0 0 40px;
   }
 
   #hebergement h3 {
@@ -510,28 +531,27 @@ button.search-button {
   }
 
   #populaire {
+    flex: 1;
     order: 1;
-    width: 31.83%;
     margin-left: 1.5%;
     border-radius: 5%;
   }
 
   #populaire .card {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  #populaire img {
-    height: auto;
+    margin-right: 30px;
+    margin-left: 30px;
   }
 
   #populaire h2 {
-    padding: 2% 0 0 6%;
+    padding: 2% 0 0 40px;
   }
 
   #populaire p.espace {
     margin-top: 0 !important;
+  }
+
+  #activite h2 {
+    padding: 2% 0 0 10px;
   }
 
   #activite .card-desk {
