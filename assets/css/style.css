@@ -189,7 +189,7 @@ p.accroche-secondaire {
 
 p.bottom {
   margin-top: auto;
-  margin-bottom: auto;
+  line-height: 0;
 }
 
 .see-more {
