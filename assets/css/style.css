@@ -49,8 +49,8 @@ form {
 }
 
 .column-margin {
-  margin-right: 2%;
-  margin-left: 2%;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 img {
@@ -383,6 +383,11 @@ button.search-button {
 }
 
 @media only screen and (min-width: 768px) {
+  .column-margin {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
   h2 {
     height: 2em;
   }
