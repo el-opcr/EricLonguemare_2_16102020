@@ -148,15 +148,6 @@ p.accroche-secondaire {
   font-size: 0.9em;
 }
 
-p.espace {
-  padding: 0 0 0 5% !important;
-  margin: 0.5em 0 0 0 !important;
-}
-
-p.espace i {
-  padding-bottom: 20px;
-}
-
 .blue-star {
   color: #0065fc;
 }
@@ -351,6 +342,11 @@ button.search-button {
     margin-top: 2em;
   }
 
+  .padding-4 {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+
   .signin > a {
     padding-bottom: 20px;
   }
@@ -367,14 +363,30 @@ button.search-button {
     border-bottom: 1px solid #0065fc;
   }
 
+  #hebergement .card {
+    height: 215px;
+  }
+
+  #hebergement .card h3,
+  #hebergement .card p {
+    padding-top: 0;
+    padding-left: 5%;
+    line-height: 0.5em;
+  }
+
+  p.espace {
+    padding: 0 0 0 5%;
+  }
+
   #activite .card-desk a,
   #activite .card-desk div,
   #hebergement .card-desk a {
     width: 100%;
   }
 
+  #hebergement img,
   #activite img {
-    max-height: 250px;
+    max-height: 125px;
   }
 
   h1.accroche {
