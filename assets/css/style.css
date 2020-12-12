@@ -539,6 +539,11 @@ button.search-button {
     justify-content: space-between;
   }
 
+  #activite .card-desk > a,
+  #activite .card-desk > div {
+    flex: 1;
+  }
+
   #activite .card {
     width: auto;
     height: 280px;
