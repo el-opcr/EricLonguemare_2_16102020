@@ -49,8 +49,8 @@ form {
 }
 
 .column-margin {
-  margin-right: 2%;
-  margin-left: 2%;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 img {
@@ -146,15 +146,6 @@ p.accroche-secondaire {
   padding-top: 5%;
   padding-left: 5%;
   font-size: 0.9em;
-}
-
-p.espace {
-  padding: 0 0 0 5% !important;
-  margin: 0.5em 0 0 0 !important;
-}
-
-p.espace i {
-  padding-bottom: 20px;
 }
 
 .blue-star {
@@ -351,7 +342,18 @@ button.search-button {
     margin-top: 2em;
   }
 
+  #topnav img {
+    padding-left: 20px;
+    margin-top: -20px;
+  }
+
+  .padding-4 {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+
   .signin > a {
+    padding-right: 20px;
     padding-bottom: 20px;
   }
 
@@ -359,6 +361,7 @@ button.search-button {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 8%;
     border-bottom: 1px solid black;
   }
 
@@ -367,22 +370,48 @@ button.search-button {
     border-bottom: 1px solid #0065fc;
   }
 
+  #hebergement .card {
+    height: 215px;
+  }
+
+  #hebergement .card h3,
+  #hebergement .card p {
+    padding-top: 0;
+    padding-left: 5%;
+    line-height: 0.5em;
+  }
+
+  p.espace {
+    padding: 0 0 0 5%;
+  }
+
   #activite .card-desk a,
   #activite .card-desk div,
   #hebergement .card-desk a {
     width: 100%;
   }
 
+  #hebergement img,
   #activite img {
-    max-height: 250px;
+    max-height: 125px;
   }
 
   h1.accroche {
     margin-top: 2em;
   }
+
+  #mainfooter {
+    gap: 0;
+    padding: 0;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  .column-margin {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
   h2 {
     height: 2em;
   }
@@ -465,6 +494,15 @@ button.search-button {
   #hebergement h3 {
     padding-top: 0;
     margin-bottom: 0;
+  }
+
+  p.espace {
+    padding: 0 0 0 5% !important;
+    margin: 0.5em 0 0 0 !important;
+  }
+
+  p.espace i {
+    padding-bottom: 20px;
   }
 
   #hebergement .see-more {
