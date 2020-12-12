@@ -17,6 +17,14 @@ Mockups :
 
 [Desktop - 1440 px width](https://github.com/el-opcr/EricLonguemare_2_16102020/commit/a0ab760a68f3e9f1a3dacd36f6f39970766e9526#diff-e19bb88ad52ff782b0749b43d6be595c8d4e466d926acc12f2f3f9d74a02d6e8)
 
+Screenshots
+
+Chrome :
+
+[Iphone 6/7/8](https://github.com/el-opcr/EricLonguemare_2_16102020/commit/709e6b2c8d9ae42359c7c32dc7bf4c3ecff80c59#diff-458c636183aaf399e5a793c1f9c57836c175c693f7bf16cee2ac69b9e5e9ca20)
+
+[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/commit/709e6b2c8d9ae42359c7c32dc7bf4c3ecff80c59#diff-f2e871948f022a8b561bea936779aa59175e6185194c48676c160fa711c951fc)
+
 Responsiveness Chrome and Firefox browsers:
 
 - [x] 200px < Viewport < 768 px
