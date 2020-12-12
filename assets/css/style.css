@@ -385,14 +385,23 @@ button.search-button {
     padding: 0 0 0 5%;
   }
 
-  #activite .card-desk a,
-  #activite .card-desk div,
-  #hebergement .card-desk a {
-    width: 100%;
+  #activite .card-desk {
+    gap: 0;
   }
 
   #activite .card {
     padding: 0;
+  }
+
+  #activite .card-desk > div > a > .card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #activite .card-desk a,
+  #activite .card-desk div,
+  #hebergement .card-desk a {
+    width: 100%;
   }
 
   #hebergement img,
