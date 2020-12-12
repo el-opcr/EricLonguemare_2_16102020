@@ -492,6 +492,10 @@ button.search-button {
     padding: 2% 0 0 6%;
   }
 
+  #populaire p.espace {
+    padding-top: 0 !important;
+  }
+
   #activite .card-desk {
     flex-wrap: nowrap;
     justify-content: space-between;
