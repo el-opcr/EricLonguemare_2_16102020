@@ -392,6 +392,10 @@ button.search-button {
     margin-bottom: 2em;
   }
 
+  #topnav img {
+    margin-top: 25px;
+  }
+
   .signin {
     order: 1;
   }
