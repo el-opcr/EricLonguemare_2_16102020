@@ -13,7 +13,7 @@ Preview :
 
 Mockups :
 
-[Iphone 8](https://github.com/el-opcr/EricLonguemare_2_16102020/commit/a0ab760a68f3e9f1a3dacd36f6f39970766e9526#diff-eec80521e250ecb0051a4644e1b34b795c2f8d42745989adbfe87b9c43f20786)
+[Iphone 8](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/a0ab760a68f3e9f1a3dacd36f6f39970766e9526/reviews/mockups/iPhone_8_1.png)
 
 [Desktop - 1440 px width](https://github.com/el-opcr/EricLonguemare_2_16102020/commit/a0ab760a68f3e9f1a3dacd36f6f39970766e9526#diff-e19bb88ad52ff782b0749b43d6be595c8d4e466d926acc12f2f3f9d74a02d6e8)
 
@@ -23,7 +23,7 @@ Chrome :
 
 [Iphone 6/7/8](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/709e6b2c8d9ae42359c7c32dc7bf4c3ecff80c59/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_%20iphone_678.png)
 
-[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/709e6b2c8d9ae42359c7c32dc7bf4c3ecff80c59/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_1440x900.png)
+[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/a0ab760a68f3e9f1a3dacd36f6f39970766e9526/reviews/mockups/Desktop-1.png)
 
 Responsiveness Chrome and Firefox browsers:
 
