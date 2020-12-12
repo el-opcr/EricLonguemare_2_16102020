@@ -25,6 +25,12 @@ Chrome :
 
 [Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/709e6b2c8d9ae42359c7c32dc7bf4c3ecff80c59/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_1440x900.png)
 
+Firefox :
+
+[Iphone 6/7/8](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-12%20%C3%A0%2013.56.44-fullpage_iphone_678.png)
+
+[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-12%20%C3%A0%2013.57.40-fullpage_1440x900.png)
+
 Responsiveness Chrome and Firefox browsers:
 
 - [x] 200px < Viewport < 768 px
