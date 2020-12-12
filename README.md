@@ -29,7 +29,7 @@ Firefox :
 
 [Iphone 6/7/8](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-12%20%C3%A0%2013.56.44-fullpage_iphone_678.png)
 
-[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-12%20%C3%A0%2013.57.40-fullpage_1440x900.png)
+[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-12%20%C3%A0%2015.19.57-fullpage-1440x900.png)
 
 Responsiveness Chrome and Firefox browsers:
 
