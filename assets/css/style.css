@@ -385,12 +385,6 @@ button.search-button {
     padding: 0 0 0 5%;
   }
 
-  #activite .card-desk a,
-  #activite .card-desk div,
-  #hebergement .card-desk a {
-    width: 100%;
-  }
-
   #hebergement img,
   #activite img {
     max-height: 125px;
