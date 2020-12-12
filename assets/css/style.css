@@ -493,7 +493,7 @@ button.search-button {
   }
 
   #populaire p.espace {
-    padding-top: 0 !important;
+    margin-top: 0 !important;
   }
 
   #activite .card-desk {
