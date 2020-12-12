@@ -530,11 +530,15 @@ button.search-button {
   }
 
   #populaire h2 {
-    padding: 2% 0 0 6%;
+    padding: 2% 0 0 40px;
   }
 
   #populaire p.espace {
     margin-top: 0 !important;
+  }
+
+  #activite h2 {
+    padding: 2% 0 0 10px;
   }
 
   #activite .card-desk {
