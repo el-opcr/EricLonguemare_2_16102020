@@ -21,9 +21,9 @@ Screenshots
 
 Chrome :
 
-[Iphone 6/7/8](https://github.com/el-opcr/EricLonguemare_2_16102020/commit/709e6b2c8d9ae42359c7c32dc7bf4c3ecff80c59#diff-458c636183aaf399e5a793c1f9c57836c175c693f7bf16cee2ac69b9e5e9ca20)
+[Iphone 6/7/8](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/709e6b2c8d9ae42359c7c32dc7bf4c3ecff80c59/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_%20iphone_678.png)
 
-[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/commit/709e6b2c8d9ae42359c7c32dc7bf4c3ecff80c59#diff-f2e871948f022a8b561bea936779aa59175e6185194c48676c160fa711c951fc)
+[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/709e6b2c8d9ae42359c7c32dc7bf4c3ecff80c59/reviews/full-screenshot-chrome/el-opcr.github.io_EricLonguemare_2_16102020_1440x900.png)
 
 Responsiveness Chrome and Firefox browsers:
 
