@@ -173,6 +173,7 @@ p.espace i {
   align-items: baseline;
   justify-content: space-between;
   width: 90%;
+  margin-top: 30px;
 }
 
 #populaire .card-desk a {
@@ -382,10 +383,18 @@ button.search-button {
 }
 
 @media only screen and (min-width: 768px) {
+  h2 {
+    height: 2em;
+  }
+
   #topnav {
     justify-content: flex-end;
     height: 3em;
     margin-bottom: 2em;
+  }
+
+  #topnav img {
+    margin-top: 25px;
   }
 
   .signin {
@@ -435,13 +444,31 @@ button.search-button {
     border-radius: 5%;
   }
 
-  #hebergement img {
-    width: 220px;
-    height: 115px;
+  #hebergement .card-desk {
+    gap: 0;
   }
 
-  h2 {
-    height: 2em;
+  #hebergement .card {
+    width: 270px;
+    height: 260px;
+    margin: 10px;
+  }
+
+  #hebergement img {
+    height: 150px;
+  }
+
+  #hebergement h2 {
+    padding: 4% 0 0 4%;
+  }
+
+  #hebergement h3 {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  #hebergement .see-more {
+    padding: 5% 0 0 4%;
   }
 
   #populaire {
@@ -461,6 +488,14 @@ button.search-button {
     height: auto;
   }
 
+  #populaire h2 {
+    padding: 2% 0 0 6%;
+  }
+
+  #populaire p.espace {
+    margin-top: 0 !important;
+  }
+
   #activite .card-desk {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -469,6 +504,8 @@ button.search-button {
   #activite .card {
     width: auto;
     height: 280px;
+    padding: 0;
+    margin: 5px;
   }
 
   #activite .card.long {
