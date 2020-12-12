@@ -197,6 +197,7 @@ p.bottom {
   padding: 5% 0 0 8%;
   font-size: 1.1em;
   font-weight: bold;
+  background: #fff
 }
 
 #hebergement img,
@@ -528,6 +529,7 @@ button.search-button {
 
   #hebergement .see-more {
     padding: 5% 0 0 4%;
+    background-color: #f2f2f2;
   }
 
   #populaire {
