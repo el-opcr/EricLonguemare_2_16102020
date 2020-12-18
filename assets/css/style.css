@@ -385,9 +385,11 @@ button.search-button {
     line-height: 0.5em;
   }
 
+  /*
   p.espace {
     padding: 0 0 0 5%;
   }
+   */
 
   #activite .card-desk {
     gap: 0;
@@ -411,6 +413,14 @@ button.search-button {
 
   #populaire .card-desk {
     padding-bottom: 40px;
+  }
+
+  #populaire .card h3 {
+    margin-bottom: 0;
+  }
+
+  #populaire .card p.espace {
+    align-self: start;
   }
 
   #hebergement img,
