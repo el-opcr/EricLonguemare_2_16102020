@@ -29,17 +29,11 @@ ul {
   list-style-type: none;
 }
 
-section {
-  padding: 2% 0 0 0;
-  margin: 2% 0 0 0;
-}
-
 h1 {
   font-size: 1.33em;
 }
 
 h2 {
-  height: 3em;
   padding: 2% 0 0 2%;
   font-size: 1.33em;
 }
@@ -374,6 +368,15 @@ button.search-button {
     border-bottom: 1px solid #0065fc;
   }
 
+  #information {
+    padding-bottom: 10%;
+  }
+
+  .flex-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   #hebergement .card {
     height: 215px;
   }
@@ -446,6 +449,11 @@ button.search-button {
 
   h2 {
     height: 2em;
+  }
+
+  section {
+    padding: 2% 0 0 0;
+    margin: 2% 0 0 0;
   }
 
   #topnav {
