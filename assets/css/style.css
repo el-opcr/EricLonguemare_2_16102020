@@ -319,16 +319,12 @@ input[type=text].rechercheText {
   border: gainsboro solid 0.1em;
 }
 
-button.search-button::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f002";
-}
-
 button.search-button {
   padding: 15px;
   margin-left: -10px;
-  font-size: 1.3em;
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: bold;
   color: white;
   background-color: #0065fc;
   border: none;
@@ -366,6 +362,12 @@ button.search-button {
   .navigate > a:active {
     color: #0065fc;
     border-bottom: 1px solid #0065fc;
+  }
+
+  button.search-button::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f002";
   }
 
   #information {
