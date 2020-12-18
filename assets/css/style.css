@@ -143,9 +143,12 @@ p.accroche-secondaire {
 
 .card h3,
 .card p {
-  padding-top: 5%;
   padding-left: 5%;
   font-size: 0.9em;
+}
+
+#activite .card h3 {
+  align-items: center;
 }
 
 .blue-star {
@@ -197,7 +200,7 @@ p.bottom {
   padding: 5% 0 0 8%;
   font-size: 1.1em;
   font-weight: bold;
-  background: #fff
+  background-color: #fff;
 }
 
 #hebergement img,
@@ -391,7 +394,8 @@ button.search-button {
   }
 
   #activite .card {
-    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   #activite .card-desk > div > a > .card {
