@@ -405,6 +405,10 @@ button.search-button {
     width: 100%;
   }
 
+  #populaire .card-desk {
+    padding-bottom: 40px;
+  }
+
   #hebergement img,
   #activite img {
     max-height: 125px;
