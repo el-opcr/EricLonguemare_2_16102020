@@ -21,15 +21,15 @@ Screenshots
 
 Chrome :
 
-[Iphone 6/7/8](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/intermediates-layout/reviews/full-screenshot-chrome/localhost_63341_P2-code_index.html__ijt%3D47hmk4njubplk6kdr56rilen6_iphone678.png)
+[Iphone 6/7/8](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/localhost_63341_P2-code_index.html__ijt%3D4nnmji76um29kpcl5sot0t4ckj_iphone678.png)
 
-[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/intermediates-layout/reviews/full-screenshot-chrome/localhost_63341_P2-code_index.html__ijt%3D47hmk4njubplk6kdr56rilen6f_1440x900.png)
+[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-chrome/localhost_63341_P2-code_index.html__ijt%3D4nnmji76um29kpcl5sot0t4ckj_1440x900.png)
 
 Firefox :
 
-[Iphone 6/7/8](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/intermediates-layout/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-12%20%C3%A0%2019.52.39-fullpage_iphone678.png)
+[Iphone 6/7/8](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-18%20%C3%A0%2015.52.08-fullpage%C3%A8iphone_678.png)
 
-[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/intermediates-layout/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-12%20%C3%A0%2019.54.30-fullpage_1440x900.png)
+[Desktop 1440 x 900px](https://github.com/el-opcr/EricLonguemare_2_16102020/blob/master/reviews/full-screenshot-firefox/Capture%20d%E2%80%99%C3%A9cran%202020-12-18%20%C3%A0%2015.50.54-fullpage_1440x900.png)
 
 Responsiveness Chrome and Firefox browsers:
 
